@@ -1,4 +1,25 @@
 body {
     background-color: black;
     color: orange;
+    font-family: 'Eurostyle', sans-serif;
+}
+header {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+main {
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+fieldset{
+    border-color: orange;
+}
+main h2{ 
+    text-align: center;
+}
+table {
+    border: 2px solid;
 }

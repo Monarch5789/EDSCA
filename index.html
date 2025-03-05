@@ -5,8 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elite: Dangerous - System Colonization Assistant</title>
     <link rel="stylesheet" href="styles/default.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eurostile&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <header>
+        <h1>
+            Elite Dangerous: System Colonization Assistant
+        </h1>
+    </header>
+    <main>
+        <section name="input">
+        <h2>Stellar Body Configuration</h2>
+        <form>
+            <fieldset>
+                <legend>How many stars in your system?</legend>
+                <input type="text" name="numStars" placeholder="1" required>
+            </fieldset>
+            <fieldset>
+                <legend>How many planetary bodies (including gas giants) are in your system?</legend>
+                <input type="text" name="numBodies" placeholder="0" required>
+            </fieldset>
+            <fieldset>
+                <legend>More Relevant Questions Soon</legend>
+            </fieldset>
+        </form>
+    </section>
+    <section name="result">
+        <h2>Result System</h2>
+        <figure>
+            <table>
+                <tr>
+                    <th>
+                        This is where some interactive element will go, eventually displaying the entire
+                        system configuration and allowing users to construct their system based on the ingame
+                        point system.
+                    </th>
+                </tr>
+            </table>
+        </figure>
+    </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
