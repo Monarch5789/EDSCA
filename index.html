@@ -22,18 +22,19 @@
         <form>
             <fieldset>
                 <legend>How many stars in your system?</legend>
-                <input type="text" name="numStars" placeholder="1" required>
+                <input type="text" name="numStars" value="1" required>
             </fieldset>
             <fieldset>
                 <legend>How many planetary bodies (including gas giants) are in your system?</legend>
-                <input type="text" name="numBodies" placeholder="0" required>
+                <input type="text" name="numBodies" value="0" required>
             </fieldset>
             <fieldset>
-                <legend>More Relevant Questions Soon</legend>
+                <legend>How many landable bodies are in your system?</legend>
+                <input type="text" name="numLandableBodies" value="0" required>
             </fieldset>
             <br>
             <br>
-            <button type="submit" id="submitButton">Submit</button>
+            <button type="submit" id="submitButton" onclick="alert('Processing')">Submit</button>
         </form>
     </section>
     <section name="result">
